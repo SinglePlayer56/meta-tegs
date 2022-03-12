@@ -1,21 +1,3 @@
-@charset "UTF-8";
-@import url("https://../fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
-@font-face {
-  font-family: 'PFDinTextCompPro';
-  src: url("../fonts/ofont.ru_PF Din Text Comp Pro.eot");
-  src: local("☺"), url("../fonts/ofont.ru_PF Din Text Comp Pro.woff") format("woff"), url("../fonts/ofont.ru_PF Din Text Comp Pro.ttf") format("truetype"), url("../fonts/ofont.ru_PF Din Text Comp Pro.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PFDinTextCompProMedium';
-  src: url("../fonts/ofont.ru_PF Din Text Comp Pro Medium.eot");
-  src: local("☺"), url("../fonts/ofont.ru_PF Din Text Comp Pro Medium.woff") format("woff"), url("../fonts/ofont.ru_PF Din Text Comp Pro Medium.ttf") format("truetype"), url("../fonts/ofont.ru_PF Din Text Comp Pro Medium.svg") format("svg");
-  font-weight: 500;
-  font-style: normal;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -102,22 +84,4 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
-}
-
-p {
-  margin: 0 0 30px 0;
-  font-size: 30px;
-}
-
-.b1 {
-  font-family: 'pt sans';
-  font-style: italic;
-}
-
-.b2 {
-  font-family: PFDinTextCompProMedium;
-}
-
-.b3 {
-  font-family: PFDinTextCompPro;
 }
